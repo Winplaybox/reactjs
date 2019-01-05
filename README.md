@@ -1,7 +1,6 @@
-<<<<<<< HEAD
 # reactjs
 Build a website using React, Sass, Gulp and Node.js...
-=======
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -70,4 +69,4 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
->>>>>>> 7a4d7461d25ed38403151a8c588893e4497cee3b
+
