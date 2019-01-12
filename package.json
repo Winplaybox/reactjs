@@ -21,5 +21,27 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "description": "Build a website using React, Sass, Gulp and Node.js...",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Winplaybox/reactjs.git"
+  },
+  "keywords": [
+    "React",
+    "Sass",
+    "Gulp",
+    "and",
+    "Node.js"
+  ],
+  "author": "Sagar Mistry",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Winplaybox/reactjs/issues"
+  },
+  "homepage": "https://github.com/Winplaybox/reactjs#readme",
+  "devDependencies": {
+    "gulp": "^4.0.0"
+  }
 }
