@@ -3,6 +3,9 @@ Build a website using React, Sass, Gulp and Node.js...
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+##Get node_modules from following url below:
+<a href="https://openload.co/f/UMAGVrSguuc/node_modules.zip">Node_Modules Download</a>
+
 ## Available Scripts
 
 In the project directory, you can run:
