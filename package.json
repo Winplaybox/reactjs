@@ -1,47 +1,30 @@
 {
-  "name": "my-project",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "react": "^16.7.0",
-    "react-dom": "^16.7.0",
-    "react-scripts": "2.1.3"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ],
-  "description": "Build a website using React, Sass, Gulp and Node.js...",
+  "name": "createwebsiteinreactjs",
+  "version": "1.0.0",
+  "description": "Gulp ",
   "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Winplaybox/reactjs.git"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "React",
-    "Sass",
-    "Gulp",
-    "and",
-    "Node.js"
-  ],
   "author": "Sagar Mistry",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Winplaybox/reactjs/issues"
-  },
-  "homepage": "https://github.com/Winplaybox/reactjs#readme",
   "devDependencies": {
-    "gulp": "^4.0.0"
-  }
+    "gulp": "^4.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.4"
+  },
+  "dependencies": {
+    "gulp-css-scss": "^0.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Winplaybox/Gulp.git"
+  },
+  "keywords": [
+    "Gulp"
+  ],
+  "bugs": {
+    "url": "https://github.com/Winplaybox/Gulp/issues"
+  },
+  "homepage": "https://github.com/Winplaybox/Gulp#readme"
 }

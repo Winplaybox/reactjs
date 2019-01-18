@@ -1,0 +1,1 @@
+{"version":3,"names":[],"mappings":"","sources":["style.css"],"sourcesContent":["body {\n  background: #d4d4d4; }\n  body h1 {\n    color: #000; }\n    body h1 span:before {\n      content: '';\n      background: #000;\n      width: 100%;\n      height: 2px;\n      color: #000000; }\n"],"file":"style.css"}
