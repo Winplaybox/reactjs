@@ -1,13 +1,15 @@
 import React, { Component } from 'react';
-
+import {
+  Link
+} from 'react-router-dom'
 class Nav extends Component {
   render() {
     return (
       <nav>
           <ul>
-              <li>Home</li>
-              <li>About us</li>
-              <li>Contact us</li>
+              <li><Link to='/'>Home</Link></li>
+              <li><Link to='/Aboutus'>About us</Link></li>
+              <li><Link to='/Contactus'>Contact us</Link></li>
           </ul>
       </nav>
     );
