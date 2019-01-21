@@ -77,5 +77,5 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 
 Command
 
-$ npm install --save react react-dom 
-$ npm install --save react-bootstrap
+`$ npm install --save react react-dom` <br>
+`$ npm install --save react-bootstrap`
