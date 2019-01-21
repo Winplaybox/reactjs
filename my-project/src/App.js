@@ -3,7 +3,7 @@ import {
   BrowserRouter as Router,
   Route
 } from 'react-router-dom'
-
+import { Button } from 'react-bootstrap';
 // import component
 import Header from './component/header'
 // import Content from './component/content'
@@ -21,10 +21,13 @@ class App extends Component {
       <Router>
         <div className="App">
         <Header/>
+        <div className="container theme-showcase" role="main">
         <Route exact path="/" component={Home}/>
         <Route exact path="/Aboutus" component={Aboutus}/>
         <Route exact path="/Contactus" component={Contactus}/>
+        </div>
         {/* <Content/> */}
+        <Button bsStyle="success">Success</Button>
         <Footer/> 
         </div>
       </Router>

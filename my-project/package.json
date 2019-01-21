@@ -23,6 +23,7 @@
     "not op_mini all"
   ],
   "devDependencies": {
+    "react-bootstrap": "^0.32.4",
     "react-router-dom": "^4.3.1"
   }
 }
