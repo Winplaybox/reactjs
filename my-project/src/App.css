@@ -1,10 +1,10 @@
 .navbar-brand{
   padding: 9px 15px;
 }
-body {
+/* body {
   padding-top: 70px;
   padding-bottom: 30px;
-}
+} */
 
 .theme-dropdown .dropdown-menu {
   position: static;
@@ -19,3 +19,4 @@ body {
 .theme-showcase .navbar .container {
   width: auto;
 }
+.jumbotron{margin-bottom: 0;}

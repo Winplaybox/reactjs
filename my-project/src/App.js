@@ -14,6 +14,7 @@ import './App.css'
 import Home from './Pages/home'
 import Aboutus from './Pages/aboutus'
 import Contactus from './Pages/contactus'
+import Modal from './Pages/modal'
 // import pages
 class App extends Component {
   render() {
@@ -22,11 +23,11 @@ class App extends Component {
         <div className="App">
         <Header/>
         <div className="container theme-showcase" role="main">
-        <Route exact path="/" component={Home}/>
-        <Route exact path="/Aboutus" component={Aboutus}/>
-        <Route exact path="/Contactus" component={Contactus}/>
+          <Route exact path="/" component={Home}/>
+          <Route exact path="/Aboutus" component={Aboutus}/>
+          <Route exact path="/Contactus" component={Contactus}/>
+          <Route exact path="/Modal" component={Modal}/>
         </div>
-        {/* <Content/> */}
         <Button bsStyle="success">Success</Button>
         <Footer/> 
         </div>

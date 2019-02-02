@@ -3,29 +3,26 @@ import {
   Link
 } from 'react-router-dom'
 import logo from '../logo.svg';
+// import { Navbar } from 'react-bootstrap';
 class Nav extends Component {
   render() {
     return (
-      <nav  className="navbar navbar-inverse navbar-fixed-top">
-         <div className="container">
-         <div className="navbar-header">
-         <button type="button" className="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span className="sr-only">Toggle navigation</span>
-            <span className="icon-bar"></span>
-            <span className="icon-bar"></span>
-            <span className="icon-bar"></span>
-          </button>
-         <Link to="/" className='navbar-brand'><img src={logo} alt="Logo"  width="50px"/></Link>
+      <nav  className="navbar navbar-expand-sm bg-dark navbar-dark">
          
-         </div>
-          <div id="navbar" className="navbar-collapse collapse">
-          <ul className="nav navbar-nav">
-              <li className="active"><Link to='/'>Home</Link></li>
-              <li><Link to='/Aboutus'>About us</Link></li>
-              <li><Link to='/Contactus'>Contact us</Link></li>
+         <Link to="/" className='navbar-brand'><img src={logo} alt="Logo"  width="50px"/></Link>
+         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span className="navbar-toggler-icon"></span>
+        </button>
+         
+         
+          <div id="collapsibleNavbar" className="navbar-collapse collapse">
+          <ul className="navbar-nav">
+              <li className="nav-item"><Link to='/'  className="nav-link active" >Home</Link></li>
+              <li className="nav-item"><Link to='/Aboutus' className="nav-link " >About us</Link></li>
+              <li className="nav-item"><Link to='/Contactus' className="nav-link " >Contact us</Link></li>
+              <li className="nav-item"><Link to='/Modal' className="nav-link " >Modal Example</Link></li>
           </ul>
           </div>
-         </div>
       </nav>
     );
   }
