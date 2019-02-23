@@ -15,6 +15,8 @@ import Home from './Pages/home'
 import Aboutus from './Pages/aboutus'
 import Contactus from './Pages/contactus'
 import Modal from './Pages/modal'
+import Menu from './Pages/menu'
+import Slide from './Pages/carousel'
 // import pages
 class App extends Component {
   render() {
@@ -27,6 +29,8 @@ class App extends Component {
           <Route exact path="/Aboutus" component={Aboutus}/>
           <Route exact path="/Contactus" component={Contactus}/>
           <Route exact path="/Modal" component={Modal}/>
+          <Route exact path="/menu" component={Menu}/>
+          <Route exact path="/slide" component={Slide}/>
         </div>
         <Button bsStyle="success">Success</Button>
         <Footer/> 

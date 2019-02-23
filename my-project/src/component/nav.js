@@ -21,6 +21,17 @@ class Nav extends Component {
               <li className="nav-item"><Link to='/Aboutus' className="nav-link " >About us</Link></li>
               <li className="nav-item"><Link to='/Contactus' className="nav-link " >Contact us</Link></li>
               <li className="nav-item"><Link to='/Modal' className="nav-link " >Modal Example</Link></li>
+              <li className="nav-item"><Link to='/menu' className="nav-link " >Menu</Link></li>
+              <li className="nav-item dropdown">
+                <a className="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                  Dropdown link
+                </a>
+                <div className="dropdown-menu">
+                <Link to='/slide' className="dropdown-item" >Slide</Link>
+                <Link to='/'  className="dropdown-item" >Home</Link>
+                <Link to='/'  className="dropdown-item" >Home</Link>
+                </div>
+              </li>
           </ul>
           </div>
       </nav>
